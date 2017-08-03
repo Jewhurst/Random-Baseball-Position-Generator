@@ -1,0 +1,206 @@
+body {
+  padding-top: 20px;
+  background: none;
+}
+html { 
+  background: url(i/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.navbar {
+  /*background-image: -webkit-gradient(linear, left top, left bottom, from(#771100),to(#cc6633));
+  background-image: -webkit-linear-gradient(top, #771100 0%,#cc6633 100%);
+  background-image: -o-linear-gradient(top, #771100 0%,#cc6633 100%);
+  background-image: linear-gradient(to bottom, #771100 0%,#cc6633 100%);*/
+  background:#cc6633;
+  border: 1px solid #e5e5e5;
+  color:#fff;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .navbar-nav .nav-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .masthead,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+
+}
+@media screen and (max-width: 480px) {
+  .visible-phone{
+    display: block !important;
+  }
+  .centersmall{margin-top:10px;width:100%;}
+  .visible-desktop{
+    display: none !important;
+  }
+}
+@media screen and (min-width: 480px) {
+  .visible-phone{
+    display: none !important;
+  }
+  .visible-desktop{
+    display: block !important;
+  }
+}
+body,html,p{
+	font-family: 'Quicksand', sans-serif;
+}
+.rock{font-family: 'Rock Salt', cursive;}
+.ubuntu{font-family: 'Ubuntu', sans-serif;}
+.questrial{font-family: 'Questrial', sans-serif;}
+.quicksand{font-family: 'Quicksand', sans-serif;}
+.titillium{font-family: 'Titillium Web', sans-serif;}
+a{color:#cc6633;}
+a:hover{color:#ff9900;}
+tr td{height: 1.25em;}
+.container{background-color: rgba(255,255,255,0.9);padding:25px;border-radius:10px;}
+.displaynone{display:none;}
+.mousehand{cursor:pointer}
+.clr-brown{color:#771100;}
+.clr-brorange{color:#cc6633;}
+.clr-orange{color:#ff9900;}
+.clr-orange.link:hover{color:#cc6633;}
+.clr-dkgray{color:#999999;}
+.clr-gray{color:#cccccc;}
+.clr-white{color:#ffffff;}
+.clr-red{color:#ff0000;}
+.border-brown{border: #771100 1px solid;}
+.bgclr-brown{background-color:#771100;}
+.bgclr-brorange{background-color:#cc6633;}
+.bgclr-orange{background-color:#ff9900;}
+.bgclr-dkgray{background-color:#999999;}
+.bgclr-gray{background-color:#cccccc;}
+.bgclr-red{background-color:#ff0000;}
+.bgclr-twitter{background-color:#1b95e0;}
+.bgclr-facebook{background-color:#4267b2;}
+.clr-twitter{color:#1b95e0;}
+.clr-facebook{color:#4267b2;}
+.boldme{font-weight:bold;}
+.tcenter{text-align:center;}
+.tleft{text-align:left;}
+.tright{text-align:right;}
+.fontx1p2{font-size:1.2em;}
+.fontx1p3{font-size:1.3em;}
+.fontx1p5{font-size:1.5em;}
+.fontx2{font-size:2em;}
+.floatleft{float:left;}
+.floatright{float:right;}
+.exceeded { color: red; }
+.lh125{line-height:1.25em}
+.lh150{line-height:1.50em}
+.lh175{line-height:1.75em}
+.lh2{line-height:2em}
+#fixedbutton {
+    position: fixed;
+    top: 20px;
+    left: 5px; 
+	z-index: 9999;
+}
+.lead1 {
+    font-size: 1.25rem;
+    font-weight: 350;
+}
+.table td, .table th {
+    padding: .15rem;
+	word-wrap: break-word;
+	max-width: .55rem;
+}
+.table th {
+	    line-height: 2.2;
+}
+.vertical-text {
+	transform: rotate(270deg);
+}
+.printonly{display:none;}
+@media print {
+  * { 
+	margin: 0 !important; 
+	padding: 0 !important; 
+  }
+  #controls, .footer, .footerarea{ display: none; }
+  html, body {
+    /*changing width to 100% causes huge overflow and wrap*/
+    height:100%; 
+    overflow: hidden;
+    background: #FFF; 
+    font-size: 12.5pt;
+  }
+@page {size: landscape}
+ .container {
+    width:100%;
+  }
+  img { 
+	width:30%; 
+  }
+  li { 
+	margin: 0 0 10px 20px !important;
+  }
+  table { 
+	width:100% !important;
+    border-collapse: collapse;
+}
+.footer{display:block;}.printonly{display:block;}
+table, th, td {
+    border: 1px solid black;
+	text-align:center;
+}
+  .no-print, .no-print * {
+    display: none !important;
+  }
+  .table-r{
+	width:95%;
+  }
+
+}
+
+div.oddwarning {
+    display: none;   
+}  
+
+#progressbar {
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.modal-backdrop
+{
+	background-color:#ffffff;
+    opacity:0.8 !important;
+}
